@@ -242,7 +242,7 @@ ol.addEventListener("click", function(){
 });
 
 ul.addEventListener("click", function(){
-    document.execCommand('sinsertUnorderedList', false, null);
+    document.execCommand('insertUnorderedList', false, null);
 
 });
 
