@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Js Text Editor</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral:400,400i,700,700i" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="css/font-awesome.css"> -->
+	<link rel="stylesheet" href="css/editor.css">
+
+
+</head>
+<body>
+	<h2>Pure Js Text Editor</h2>
+	<div id="container">
+		<div id="textEditor">
+			<button id="bold"><i class="fa fa-bold"></i></button>
+			<button id="italic"><i class="fa fa-italic"></i></button>
+			<button id="underlined"><i class="fa fa-underline"></i></button>
+			<button id="barred"><i class="fa fa-strikethrough"></i></button>
+
+			<select id="fonts">
+				<option >Normal</option>
+                <option value="Helvetica">Helvetica</option>
+				<option value="comic sans ms">Comic Sans Ms</option>
+                <option value="Serif">Serif</option>
+                <option value="Roboto">Roboto</option>
+                <option value="Spectral">Spectral</option>
+                <option value="Lato">Lato</option>
+                
+            </select>
+
+            <select id="fontSize">
+                <option value="16">16</option>
+                <option value="18">18</option>
+                <option value="20">20</option>
+                <option value="22">22</option>
+                <option value="24">24</option>
+                <option value="26">26</option>
+                <option value="28">28</option>
+                <option value="36">36</option>
+                <option value="48">48</option>
+                <option value="72">72</option>
+            </select>
+			
+			<select id="headings">
+				<option>Heading</option>
+				<option value="h1">heading 1</option>
+				<option value="h2">heading 2</option>
+				<option value="h3">heading 3</option>
+				<option value="h4">heading 4</option>
+				<option value="h5">heading 5</option>
+				<option value="h6">heading 6</option>
+            </select>
+			
+			 <button id="undo"><i class="fa fa-undo"></i></button>
+			<button id="redo"><i class="fa fa-repeat"></i></button>
+
+            <button id="alignLeft"><i class="fa fa-align-left"></i></button>
+			<button id="alignCenter"><i class="fa fa-align-center"></i></button>
+			<button id="alignRight"><i class="fa fa-align-right"></i></button>
+			<button id="justify"><i class="fa fa-align-justify"></i></button>
+			<button id="paragraph"><i class="fa fa-paragraph"></i></button>
+
+			<button id="ul"><i class="fa fa-list-ul"></i></button>
+			<button id="ol"><i class="fa fa-list-ol"></i></button>
+			<button id="link"><i class="fa fa-chain"></i></button>
+			<button id="brokenLink"><i class="fa fa-chain-broken"></i></button>
+			<button id="img"><i class="fa fa-image"></i></button>
+			<input type="color" id="color">
+			<button id="sup"><i class="fa fa-superscript"></i></button>
+			<button id="sub"><i class="fa fa-subscript"></i></button>
+			<button id="table"><i class="fa fa-table"></i></button>
+			<button id="textColumns"><i class="fa fa-columns"></i></button>
+			<button id="quote"><i class="fa fa-quote-left"></i></button>
+			<button id="preview"><i class="fa fa-eye"></i></button>
+			<button id="date"><i class="fa fa-calendar"></i></button>
+
+
+		</div>
+
+		<div id="editable">
+			hello from editable div
+			<ul>
+				<li>Hello</li>
+				<li>test</li>
+			</ul>
+
+		</div>
+	</div>
+	<div id="tableInfos">
+			<span id="exit">X</span>
+			<label for="rows">Rows</label>
+			<input type="text" id="rows">
+			<label for="columns">Columns </label>
+			<input type="text" id="columns">	
+			<label for="collapse">Collapse</label>
+			<input type="checkbox" id="collapse">
+			<button id="ok">Confirm</button>
+
+	   </div>
+		<script type="text/javascript" src="js/editor.js"></script>
+
+</body>
+</html>

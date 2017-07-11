@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+}
+
+
+body > h2{
+	margin-top : 10px;
+	text-align: center;
+}
+
+#container {
+	margin: 20px auto;
+	border : 1px solid black;
+	width: 700px;
+	height: 500px;
+
+}
+
+#textEditor{
+	height: 20%;
+}
+
+#editable{
+	height: 80%;
+	padding: 5px;
+}
+
+#editable h1, #editables h2, #editables h3, #editables h4, #editables h5, #editables h6{
+	margin-top: 5px;
+	margin-bottom: 
+}
+
+#editable p {
+	margin : 5px;
+}
+
+button, input[type=color]{
+	border : none;
+	margin : 4px 0;
+	height: 40px;
+	width: 40px;
+	background : #F7CA18;
+	border-radius: 4px;
+}
+
+#fontSize{
+	width: 10px;
+}
+button:nth-of-type(1){
+	margin-left : 4px;
+}
+
+button:nth-of-type(11) {
+	margin-left : 40px;
+}
+
+select {
+	background : #f7ca18;
+	height: 40px;
+	width: 100px;
+}
+
+#fontSize{
+	width: 40px;
+}
+
+select option {
+	background: #fde3a7;
+}
+
+#color {
+	vertical-align: middle;
+}
+
+#textEditor{
+	padding-bottom: 5px;
+	border-bottom : 4px solid black;
+}
+
+    
+#tableInfos{
+position: fixed;
+left : 40%;
+top : 10%;
+display: none;
+vertical-align: center;
+width:  250px;
+height: 150px;
+border-radius: 5px;
+background : #ecf0f1;
+padding-top: 20px;
+font-family: Roboto;
+/* z-index: 4; */
+}
+
+#exit{
+	display: block;
+	position: absolute;
+	right: 5px;
+	top : 0;
+	cursor: pointer;
+}
+
+#tabelInfos input, #tableInfos label {
+	padding-left : 20px;
+}
+#tableInfos input[type="text"] {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 5px;
+	width : 25px;
+	height : 25px;
+	float: left;
+}
+
+#tableInfos input[type="checkbox"] {
+	display: block;
+	width : 15px;
+	height : 15px;
+	margin-top: 5px;
+	margin-left: 5.5px;
+	float: left;
+}
+#tableInfos label{
+	display: block;
+	margin-bottom: 4px;
+	width : 80%;
+	height: 25px;
+	line-height: 25px;
+	float: left;
+}
+
+#ok{
+	width: 80px;
+	opacity: 0.9;
+	display: block;
+	float: left;
+	color : white;
+	border : 1px solid white;
+	border-radius: 5px;
+	outline: none;
+	background: #34495e;
+	padding: 5px;
+	margin: 0 85px;	
+
+}
+
+
+#ok:hover{
+	opacity: 1;
+}
+
+#tableHolder{
+	width : 80%;
+	margin: 10px auto;
+	
+}
+
+table{
+	margin: 20px auto;
+	width: 60%;
+	border-collapse: collapse;
+
+}
+
+table tr th, table tr td{
+	border : 1px solid black;
+	text-align: center;
+	padding: 1px;
+}
+
+ul,ol {
+	margin : 5px 20px;
+}
